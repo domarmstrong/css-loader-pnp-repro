@@ -1,8 +1,6 @@
 module.exports = {
   mode: 'development',
-  entry: {
-    dashboard: ['./src/app.js', './src/app.css'],
-  },
+  entry: ['./src/app.js', './src/app.css'],
   module: {
     rules: [
       {
